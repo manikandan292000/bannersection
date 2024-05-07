@@ -1,0 +1,48 @@
+			*{padding:0;
+				margin:0;
+				box-sizing:bolder-box;
+		
+			.banner-section{
+				height:100vh;
+				background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(image/hero-bg.jpg);
+				background-repeat:no-repeat;
+				background-size:cover;
+				display:flex;
+				background-position:center;
+				}
+			.container{
+				width:80%;
+				margin:auto;
+				}
+			.banner{
+				font-family:Arial, Helvetica, sans-serif;
+				}
+			.button{
+				display:flex;
+				justify-content:space-between;
+				position:relative;
+				background-color:white;
+				width:35%; 
+				padding:10px;
+				border-radius:10px;
+				}
+			.button a{
+				text-decoration:none;
+				background-color:red;
+				color:white;
+				padding:10px 30px;
+				border-radius:10px;
+				}
+			.button input{
+				border:none;
+				}
+			.banner h1{
+				font-size:40px;
+				color:white;
+				}
+			.banner p{
+				font-size:20px;
+				color:white;
+				padding-bottom:10px;
+				}
+		
